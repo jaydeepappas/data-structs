@@ -12,7 +12,7 @@ Enter hybrid # (1 for is1, 23 for is2 and is3, 123 for is1, is2 and is3,...) 123
 Enter choice: b read.
 Enter object_pair # (12 for is1.OP(is2), 32 for is3.OP(is2),...) 12 read.
 is1 is subset of is2
-Enter choice: u read.
+Enter choice: u read. 
 Enter object_pair # (12 for is1.OP(is2), 32 for is3.OP(is2),...) 31 read.
 is3 has been unioned with is1
 Enter choice: s read.
