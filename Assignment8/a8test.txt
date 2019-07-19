@@ -1,0 +1,70 @@
+[<path>]$ ./a8
+capacity initially: 101
+used initially:     0
+select dictionary (s = small, others = big): s
+loading dictionary . . .
+dictionary loaded in 0 seconds . . .
+capacity post-load: 863
+used post-load:     341
+load-factor:        0.395133
+
+Content of selected hash table segment:
+[10]: 
+[11]: suppose
+[12]: traditionally
+[13]: 
+[14]: program
+[15]: when
+[16]: 
+[17]: 
+[18]: spell
+[19]: 
+[20]: 
+[21]: 
+[22]: be
+[23]: specified
+[24]: adjacent
+[25]: 
+[26]: 
+[27]: 
+[28]: 
+[29]: 
+
+Scatter plot of where hash table is used:
+  0 -  85: **********************************
+ 86 - 171: *************************************
+172 - 257: ****************************
+258 - 343: **************************************
+344 - 429: ********************************
+430 - 515: **********************************
+516 - 601: ***************************
+602 - 687: ***********************************
+688 - 773: *******************************
+774 - 859: ******************************************
+860 - 862: ***
+
+Enter word to spell check (up to 100 characters long): adjacent
+
+adjacent matches a word in dictionary ~ o ~
+
+More word to spell check? (y/n): y
+Enter word to spell check (up to 100 characters long): bobcat
+
+bobcat not found in dictionary . . .
+   no near match(es) to suggest :-( 
+
+More word to spell check? (y/n): y
+Enter word to spell check (up to 100 characters long): foo
+
+foo not found in dictionary . . .
+   near match(es): for  
+
+More word to spell check? (y/n): y
+Enter word to spell check (up to 100 characters long): wird
+
+wird not found in dictionary . . .
+   near match(es): bird  gird  ward  word  wild  wind  wire  wiry  
+
+More word to spell check? (y/n): n
+******* bye *******
+[<path>]$ 
